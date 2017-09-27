@@ -75,7 +75,9 @@ class CommandReset implements CommandOperation {
 	}
 
 }
-
+//в этом классе можно было бы ещЄ создать коллекцию ComandOperation дл€ того, чтобы 
+//можно было пользоватьс€ ею как в паттерне Composite, добавл€€ и удал€€ из коллекции 
+//при помощи методов add and remove, а через foreach проходить все команды и вызывать их
 class User{
 	CommandOperation start;
 	CommandOperation stop;
